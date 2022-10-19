@@ -1,0 +1,85 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="OrderPageDataGridStyle1" TargetType="DataGrid">
+        <Setter Property="BorderBrush" Value="#CCD2DE" />
+        <Setter Property="Background" Value="#FFFFFF" />
+        <Setter Property="ColumnHeaderHeight" Value="50" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="RowHeight" Value="69" />
+        <Setter Property="HorizontalGridLinesBrush" Value="{StaticResource DataGridHorizontalBorderColor}" />
+        <Setter Property="CanUserAddRows" Value="false" />
+        <Setter Property="CanUserResizeRows" Value="False" />
+        <Setter Property="GridLinesVisibility" Value="Horizontal" />
+    </Style>
+
+    <Style x:Key="OrderPageDataGridStyle" TargetType="DataGrid">
+        <Setter Property="BorderBrush" Value="#CCD2DE" />
+        <Setter Property="Background" Value="#FFFFFF" />
+        <Setter Property="ColumnHeaderHeight" Value="50" />
+        <Setter Property="BorderThickness" Value="0,0,0,0" />
+    </Style>
+
+    <Style x:Key="OrderPageDataGridHeaderStyle" TargetType="{x:Type DataGridColumnHeader}">
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Background" Value="#FFFFFF" />
+        <Setter Property="BorderBrush" Value="{StaticResource DataGridHeaderBorderColor}" />
+        <Setter Property="Padding" Value="0,0,0,0" />
+        <Setter Property="FontSize" Value="20" />
+    </Style>
+
+    <Style
+        x:Key="OrderPageDataGridHeaderStyle1"
+        BasedOn="{StaticResource OrderPageDataGridHeaderStyle}"
+        TargetType="{x:Type DataGridColumnHeader}">
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Background" Value="#FFFFFF" />
+        <Setter Property="BorderBrush" Value="#E1E6EF" />
+        <Setter Property="BorderThickness" Value="0,0,0,1" />
+        <Setter Property="Padding" Value="20,0,0,0" />
+        <Setter Property="FontSize" Value="20" />
+    </Style>
+
+
+    <Style x:Key="DataGridColumnTextblockStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="#000000" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="LineHeight" Value="19" />
+        <Setter Property="FontWeight" Value="400" />
+        <Setter Property="Padding" Value="20,0,0,0" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+    </Style>
+
+
+    <Style
+        x:Key="CustomScreendataGridHeaderStyle"
+        BasedOn="{StaticResource OrderPageDataGridHeaderStyle1}"
+        TargetType="{x:Type DataGridColumnHeader}">
+        <Setter Property="Background" Value="#F2F6FE" />
+        <Setter Property="Padding" Value="35,0,0,0" />
+    </Style>
+
+    <Style
+        x:Key="CustomerDataGridColumnTextblockStyle"
+        BasedOn="{StaticResource DataGridColumnTextblockStyle}"
+        TargetType="TextBlock">
+        <Setter Property="Padding" Value="35,0,0,0" />
+    </Style>
+
+    <Style
+        x:Key="HomePageDataGridColumnTextblockStyle"
+        BasedOn="{StaticResource DataGridColumnTextblockStyle}"
+        TargetType="TextBlock">
+        <Setter Property="Padding" Value="20,0,0,0" />
+    </Style>
+
+
+</ResourceDictionary>

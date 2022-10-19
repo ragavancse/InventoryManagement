@@ -1,0 +1,126 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="TitleTextblockStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="23" />
+        <Setter Property="Foreground" Value="#000000" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="LineHeight" Value="37" />
+        <Setter Property="FontWeight" Value="700" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        
+    </Style>
+
+    <Style x:Key="CommonTextblockStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="Foreground" Value="#000000" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+
+    <Style x:Key="SearchTextboxStyle" TargetType="TextBox">
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </Style.Resources>
+        <Setter Property="BorderBrush" Value="#DDDDDD" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontSize" Value="17" />
+        <Setter Property="Foreground" Value="#000000" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="400" />
+        
+    </Style>
+
+
+    <Style x:Key="OrderPageBottomTextblockStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="Foreground" Value="#000000" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontWeight" Value="700" />
+    </Style>
+
+
+    <Style x:Key="KlartPageTextblockStyle_1" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="#3E3D3D" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="700" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="KlartPageTextblockStyle_2" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Foreground" Value="#3E3D3D" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="400" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Margin" Value="0,3,0,0" />
+    </Style>
+    <Style x:Key="TextboxStyle" TargetType="TextBox">
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </Style.Resources>
+        <Setter Property="BorderBrush" Value="{StaticResource TextboxBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontSize" Value="17" />
+        <Setter Property="Foreground" Value="{StaticResource TextboxForeground}" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="400" />
+        <Setter Property="Padding" Value="17,0,0,0" />
+    </Style>
+    <Style x:Key="InformationTextboxStyle" TargetType="TextBox">
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </Style.Resources>
+        <Setter Property="BorderBrush" Value="{StaticResource TextboxBorderBrush}" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="FontSize" Value="17" />
+        <Setter Property="Foreground" Value="{StaticResource TextboxForeground}" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="400" />
+        <Setter Property="Padding" Value="17,0,0,0" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+    </Style>
+
+    <Style
+        x:Key="KlartPageTextblockStyle_3"
+        BasedOn="{StaticResource KlartPageTextblockStyle_1}"
+        TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="#3E3D3D" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="700" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+
+    <Style
+        x:Key="KlartPageTextblockStyle_4"
+        BasedOn="{StaticResource KlartPageTextblockStyle_1}"
+        TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="#3E3D3D" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontWeight" Value="600" />
+    </Style>
+
+
+    <Style x:Key="SwitchOffTextBlock" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Foreground" Value="#000000" />
+        <Setter Property="FontFamily" Value="Proxima Nova" />
+        <Setter Property="FontWeight" Value="700" />
+    </Style>
+</ResourceDictionary>
