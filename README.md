@@ -19,7 +19,7 @@ Feature set:
 
 ## Default username and password
 
-The default username is `admin`, and the default password is `changeme`. Please change the password before you use this in real life!
+The default username is `admin`, and the default password is `admin`. Please change the password before you use this in real life!
 
 ## Screenshots
 
