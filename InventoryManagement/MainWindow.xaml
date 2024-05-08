@@ -19,6 +19,7 @@
     </WindowChrome.WindowChrome>
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+
     </Window.Resources>
     <Window.DataContext>
         <viewModels:MainWindowViewModel />
